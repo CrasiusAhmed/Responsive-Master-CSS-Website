@@ -1,0 +1,165 @@
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width : 1650px)
+{
+}
+@media (max-width : 1500px)
+{
+    .square1
+    {
+        left: -25%;
+    }
+
+}
+@media (max-width : 1350px)
+{
+    .square1
+    {
+        left: -40%;
+        transform: scale(0.9);
+    }
+    .square2
+    {
+        transform: scale(0.9);
+    }
+    .grid
+    {
+        flex-wrap: wrap;
+    }
+    .f1-c,
+    .f2-c,
+    .f3-c
+    {
+        flex: 0 1 50%;
+        margin: unset;
+        position: relative;
+    }
+    .f1-c:hover,
+    .f2-c:hover,
+    .f3-c:hover
+    {
+        flex: 1 1 50%;
+    }
+    .f1-c:hover .f1-text,
+    .f3-c:hover .f3-text
+    {
+        left: 50%;
+    }
+
+}
+@media (max-width : 1200px)
+{
+}
+@media (max-width : 1100px)
+{
+    .square1
+    {
+        left: -50%;
+        transform: scale(0.8);
+    }
+}
+@media (max-width : 960px)
+{
+    .about
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .square1
+    {
+        top: 0;
+        left: 20%;
+        transform: scale(0.8);
+    }
+    .square2
+    {
+        top: -50%;
+        width: 550px;
+        height: 300px;
+    }
+}
+@media (max-width : 788px)
+{
+    .square1
+    {
+        top: 0;
+        left: -15%;
+        order: -1;
+        transform: scale(0.8);
+        width: 550px;
+        height: 380px;
+    }
+    .square2,
+    .square2.show
+    {
+        top: -50%;
+        width: 550px;
+        height: 315px;
+        top: 15%;
+    }
+
+    .f1-c,
+    .f2-c,
+    .f3-c
+    {
+        flex: 1 1 50%;
+        margin: 0 auto;
+    }
+    .f1-c:hover .icon-c,
+    .f2-c:hover .icon-c,
+    .f3-c:hover .icon-c
+    {
+        transform: translateY(-100%);
+    }
+    .f1-text,
+    .f2-text,
+    .f3-text
+    {
+        top: 50%;
+        left: 30%;
+    }
+    .f1-c:hover .f1-text,
+    .f2-c:hover .f2-text,
+    .f3-c:hover .f3-text
+    {
+        left: 5%;
+        top: 50%;
+    }
+}
+@media (max-width : 545px)
+{
+    .about .text
+    {
+        width: 350px;
+    }
+    .square1
+    {
+        top: 0;
+        left: -20%;
+        order: -1;
+        transform: scale(0.75);
+    }
+    .square2
+    {
+        transform: scale(0.75);
+    }
+}
+@media (max-width : 495px)
+{
+    .square1
+    {
+        transform: scale(0.7);
+    }
+    .square2
+    {
+        left: -13%;
+    }
+}

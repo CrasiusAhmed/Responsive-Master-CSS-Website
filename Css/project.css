@@ -1,0 +1,140 @@
+
+
+
+
+
+
+
+
+@media (max-width : 1650px)
+{
+}
+@media (max-width : 1500px)
+{
+
+}
+@media (max-width : 1350px)
+{
+   .no-sec
+   {
+        padding: 0 8%;
+   }
+   .img-animation2 img,
+   .img-animation4 img
+   {
+        height: 265px;
+        width: 500px;
+   }
+   .img-animation2
+   {
+    left: 83%;
+   }
+   .img-animation4
+   {
+    left: 4%;
+   }
+}
+@media (max-width : 1200px)
+{
+}
+@media (max-width : 1100px)
+{
+    .java-wordpress p
+    {
+        top: 70%;
+    }
+    .java-python p
+    {
+        top: 69%;
+        left: 90%;
+    }
+}
+@media (max-width : 960px)
+{
+    .img-animation img,
+    .img-animation3 img,
+    .img-animation5 img
+    {
+        height: 250px;
+        width: 205px;
+    }
+    .img-animation,
+    .img-animation5
+    {
+        top: 39%;
+        left: 25%;
+    }
+    .img-animation2 img,
+    .img-animation4 img
+    {
+         height: 215px;
+         width: 400px;
+    }
+}
+@media (max-width : 788px)
+{
+
+    .for-figma h1,
+    .for-wordpress h1,
+    .for-css h1,
+    .for-python h1,
+    .for-javascript h1
+    {
+        font-size: 2.8rem;
+    }
+    .for-figma p,
+    .for-wordpress p,
+    .for-css p,
+    .for-python p,
+    .for-javascript p
+    {
+        font-size: 1.3rem;
+    }
+    .for-wordpress p 
+    {
+        left: 77%;
+    }
+    .java-css h1
+    {
+        left: 65%;
+    }
+    .for-css h1
+    {
+        top: 90%;
+    }
+}
+@media (max-width : 545px)
+{
+    .java-figma h1
+    {
+        left: 75%;
+    }
+    .img-animation img,
+    .img-animation3 img,
+    .img-animation5 img
+    {
+        height: 215px;
+        width: 175px;
+    }
+    .img-animation,
+    .img-animation5
+    {
+        top: 60%;
+        left: 95%;
+    }
+    .img-animation2 img,
+    .img-animation4 img 
+    {
+        height: 165px;
+        width: 315px;
+    }
+    .img-animation3
+    {
+        top: 39%;
+        left: 51%;
+    }
+    .img-animation4
+    {
+        left: -80%;
+    }
+}

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body
+{
+    background: #090d1c;
+}
+.logo h1
+{
+    font-size: 2.3rem;
+    margin-bottom: 0px;
+}
+h1
+{
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+h4
+{
+    color: white;
+    font-size: 1rem;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+p
+{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 35px;
+}
+a
+{
+    color: #00e9de;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width : 1650px)
+{
+
+}
+@media (max-width : 1500px)
+{
+    .Box-card
+    {
+        transform: translateY(-50%) scale(0.95);
+    }
+}
+@media (max-width : 1350px)
+{
+    .Box-card
+    {
+        transform: translateY(-50%) scale(0.9);
+        left: 5%;
+    }
+}
+@media (max-width : 1200px)
+{
+    .Box-card
+    {
+        transform: translateY(-50%) scale(0.8);
+    }
+}
+@media (max-width : 1100px)
+{
+    .bg-color1,
+    .bg-color2,
+    .bg-color3,
+    .bg-color4
+    {
+        width: 50%;
+    }
+    .Box-card
+    {
+        transform: translateY(-50%) scale(0.65);
+    }
+}
+@media (max-width : 960px)
+{
+   .contact
+   {
+        flex-direction: column;
+        width: 65%;
+        background: #020312;
+        box-shadow: 0px 0px 5px #219cf3, 
+        2px 2px 1px #00e9de, 
+        -2px -2px 1px #00e9de, 
+        inset 10px 0px 60px #080a11, 
+        inset -27px -32px 60px #090912, 
+        inset 4px 2px 10px #0b83ff;
+   }
+   .bg-color1,
+   .bg-color2,
+   .bg-color3,
+   .bg-color4
+   {
+       width: 100%;
+       background: unset;
+       box-shadow: unset;
+       animation: none;
+   }
+   form
+   {
+        top: 65%;
+   }
+   .bg-color4
+   {
+    height: 45%;
+   }
+   .Box-card
+   {
+       transform: translateY(-50%) scale(0.6);
+       top: 45%;
+       left: 2%;
+   }
+   #form1
+   {
+    top: 0;
+   }
+}
+@media (max-width : 788px)
+{
+    .contact
+    {
+        width: auto;
+    }
+}
+@media (max-width : 545px)
+{
+    .contact
+    {
+        width: 95%;
+    }
+    form
+    {
+        width: auto;
+    }
+    .Box-card
+    {
+        transform: translateY(-50%) scale(0.55);
+        left: -5%;
+    }
+}
