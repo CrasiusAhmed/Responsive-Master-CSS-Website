@@ -7,9 +7,7 @@ This Beautiful Website is a fully responsive ecommerce website, maximum compatib
 ![d1 copy](https://github.com/CrasiusAhmed/Responsive-Master-CSS-Website/assets/164026375/0e445710-86c7-4dc5-85e5-43440407ceb1)
 ![d3 copy](https://github.com/CrasiusAhmed/Responsive-Master-CSS-Website/assets/164026375/cc72d265-4d8e-4b52-816f-48787267ee51)
 
-<div style="margin: 0 auto;">
-  https://github.com/CrasiusAhmed/Responsive-Master-CSS-Website/assets/164026375/67573d02-6da5-4ba7-8c54-3374c52405c0
-</div>
+https://github.com/CrasiusAhmed/Responsive-Master-CSS-Website/assets/164026375/67573d02-6da5-4ba7-8c54-3374c52405c0
 
 
 
