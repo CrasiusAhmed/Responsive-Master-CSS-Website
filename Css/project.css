@@ -1,3 +1,288 @@
+.no-sec
+{
+    padding: 0px 10%;
+    overflow: hidden;
+}
+
+
+.project
+{
+    height: 80vh;
+    position: relative;
+    width: 100%;
+}
+.project h1,
+.project h3,
+.project p
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu-project
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.menu-project p
+{
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+.select-square
+{
+    content: '';
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 7px #219cf3, 
+    3px 3px 1px #00e9de, 
+    inset 10px 0px 20px #080a11, 
+    inset -96px -30px 100px #090912, 
+    inset 6px -26px 120px #0b83ff;
+    width: 200px;
+    height: 3px;
+    border-radius: 50%;
+    z-index: -2;
+
+    transition: .4s ease-in-out; /* javascript */
+}
+.select-square::before {
+    content: '';
+    background: #0a121d;
+    background: #2fc0ff;
+    box-shadow: 0px 0px 19px #219cf3, 
+    1px 1px 1px #00e9de, 
+    inset 2px -13px 15px #080a11, 
+    inset 15px 25px 30px #0B83FF;
+    position: absolute;
+    top: 6%;
+    left: -4%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.for-figma h1,
+.for-wordpress h1,
+.for-css h1,
+.for-python h1,
+.for-javascript h1
+{
+    position: absolute;
+    top: 26%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    opacity: 0;
+    transition: .3s ease;
+}
+.for-wordpress h1 {
+    top: 90%;
+    left: 50%;
+}
+.for-css h1 {
+    top: 74%;
+    left: 36%;
+}
+.for-python h1
+{
+    top: 88%;
+    left: 65%;
+}
+
+.for-figma p,
+.for-wordpress p,
+.for-css p,
+.for-python p,
+.for-javascript p
+{
+    position: absolute;
+    top: 69%;
+    left: 82%;
+    width: 180px;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    opacity: 0;
+    transition: .3s ease;
+}
+.for-wordpress p
+{
+    top: 50%;
+    left: 39%;
+}
+.for-css p {
+    top: 40%;
+    left: 53%;
+}
+.for-python p
+{
+    top: 46%;
+    left: 90%;
+}
+
+.img-animation,
+.img-animation2,
+.img-animation3,
+.img-animation4,
+.img-animation5
+{
+    height: 0px;
+    width: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 73%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+    opacity: 0;
+}
+.img-animation2
+{
+    top: 43%;
+    left: 73%;
+    height: 315px;
+    width: 0px;
+}
+.img-animation3 {
+    top: 68%;
+    left: 84%;
+    transform: translate(-50%, -50%) rotateY(180deg);
+}
+.img-animation4 {
+    top: 20%;
+    left: 21%;
+    height: 315px;
+    width: 0px;
+    transform: rotateY(180deg);
+}
+.img-animation img,
+.img-animation2 img,
+.img-animation3 img,
+.img-animation4 img,
+.img-animation5 img
+{
+    height: 400px;
+    width: 300px;
+}
+.img-animation3 img
+{
+    transform: rotateY(180deg);
+}
+.img-animation2 img {
+    height: 315px;
+    width: 600px;
+}
+.img-animation4 img {
+    height: 315px;
+    width: 600px;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+/* ______________________javascript________________________ */
+
+.java-figma h1
+{
+    left: 64%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-wordpress h1 {
+    left: 55%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-css h1 {
+    left: 31%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-python h1
+{
+    top: 88%;
+    left: 70%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-javascript h1
+{
+    left: 55%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+
+
+
+.java-figma p,
+.java-javascript p
+{
+    left: 78%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-wordpress p
+{
+    top: 45%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-css p {
+    top: 50%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-python p
+{
+    top: 46%;
+    left: 85%;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+
+
+.java-figma .img-animation,
+.java-css .img-animation3,
+.java-javascript .img-animation5
+{
+    height: 400px;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+.java-wordpress .img-animation2,
+.java-python .img-animation4
+{
+    width: 600px;
+    opacity: 1;
+    transition: .6s ease .1s;
+}
+
+
+
+/* scroll function JAVASCRIPT */
+.menu-project
+{
+    transform: translateX(40px);
+    opacity: 0;
+    transition: 1s ease;
+}
+.menu-project.show {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+
 
 
 
@@ -15,46 +300,40 @@
 }
 @media (max-width : 1350px)
 {
-   .no-sec
-   {
-        padding: 0 8%;
-   }
-   .img-animation2 img,
-   .img-animation4 img
-   {
+    .no-sec {
+        padding: 0px 8%;
+    }
+    .img-animation2 img,
+    .img-animation4 img {
         height: 265px;
         width: 500px;
-   }
-   .img-animation2
-   {
-    left: 83%;
-   }
-   .img-animation4
-   {
-    left: 4%;
-   }
+    }
+    .img-animation2 {
+        left: 83%;
+    }
+    .img-animation4 {
+        left: 4%;
+    }
 }
 @media (max-width : 1200px)
 {
+
 }
 @media (max-width : 1100px)
 {
-    .java-wordpress p
-    {
+    .java-wordpress p {
         top: 70%;
     }
-    .java-python p
-    {
+    .java-python p {
         top: 69%;
         left: 90%;
     }
 }
 @media (max-width : 960px)
 {
-    .img-animation img,
-    .img-animation3 img,
-    .img-animation5 img
-    {
+    .img-animation img, 
+    .img-animation3 img, 
+    .img-animation5 img {
         height: 250px;
         width: 205px;
     }
@@ -64,38 +343,32 @@
         top: 39%;
         left: 25%;
     }
-    .img-animation2 img,
-    .img-animation4 img
-    {
-         height: 215px;
-         width: 400px;
+    .img-animation2 img, .img-animation4 img {
+        height: 215px;
+        width: 400px;
     }
 }
 @media (max-width : 788px)
 {
-
-    .for-figma h1,
-    .for-wordpress h1,
-    .for-css h1,
-    .for-python h1,
-    .for-javascript h1
-    {
+    .for-figma h1, 
+    .for-wordpress h1, 
+    .for-css h1, 
+    .for-python h1, 
+    .for-javascript h1 {
         font-size: 2.8rem;
     }
-    .for-figma p,
-    .for-wordpress p,
-    .for-css p,
-    .for-python p,
-    .for-javascript p
-    {
+    .for-figma p, 
+    .for-wordpress p, 
+    .for-css p, 
+    .for-python p, 
+    .for-javascript p {
         font-size: 1.3rem;
     }
-    .for-wordpress p 
-    {
+
+    .for-wordpress p {
         left: 77%;
     }
-    .java-css h1
-    {
+    .java-css h1 {
         left: 65%;
     }
     .for-css h1
@@ -105,36 +378,26 @@
 }
 @media (max-width : 545px)
 {
-    .java-figma h1
-    {
+    .java-figma h1 {
         left: 75%;
     }
-    .img-animation img,
-    .img-animation3 img,
-    .img-animation5 img
-    {
+    .img-animation img, .img-animation3 img, .img-animation5 img {
         height: 215px;
         width: 175px;
     }
-    .img-animation,
-    .img-animation5
-    {
+    .img-animation, .img-animation5 {
         top: 60%;
-        left: 95%;
+        left: 95%;    
     }
-    .img-animation2 img,
-    .img-animation4 img 
-    {
+    .img-animation2 img, .img-animation4 img {
         height: 165px;
         width: 315px;
     }
-    .img-animation3
-    {
+    .img-animation3 {
         top: 39%;
         left: 51%;
     }
-    .img-animation4
-    {
+    .img-animation4 {
         left: -80%;
     }
 }

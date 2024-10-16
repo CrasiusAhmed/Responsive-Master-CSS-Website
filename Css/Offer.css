@@ -1,3 +1,335 @@
+section
+{
+    padding: 170px 10%;
+}
+
+.offer,
+.detail
+{
+    position: relative;
+}
+.offer::before {
+    content: '';
+    width: 600px;
+    height: 2000px;
+    border-radius: 50%;
+    background: #14bac2;
+    position: absolute;
+    top: 160%;
+    left: -40%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+    filter: blur(200px);
+}
+.detail
+{
+    top: 60px;
+    top: 110px; /* Javascript */
+    opacity: 0;
+    transition: 1s ease;
+}
+.text-flex,
+.four-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.four-box
+{
+    padding-top: 70px;
+}
+.box1,
+.box2,
+.box3,
+.box4
+{
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #666666;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: .6s ease-out;
+}
+.box1
+{
+/*     background: #0f0a1d;
+    box-shadow: 0px 0px 10px #7b21f3, 
+    3px 3px 1px #e90000, 
+    inset 10px 0px 20px #0c0811, 
+    inset -96px -30px 100px #0e0912, 
+    inset 6px -26px 120px #8c0bff; */
+
+    background: #0a121d;
+    box-shadow: 0px 0px 10px #219cf3, 
+    3px 3px 1px #00e9de, 
+    inset 10px 0px 20px #080a11, 
+    inset -96px -30px 100px #090912, 
+    inset 6px -26px 120px #0b83ff;
+    border: 2px solid transparent;
+}
+.line1,
+.line2,
+.line3,
+.line4
+{
+    content: '';
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    background: #0a121d;
+    box-shadow: 0px 0px 10px #219cf3, 
+    3px 3px 1px #00e9de, 
+    -3px -3px 1px #00e9de,
+    inset 10px 0px 20px #080a11, 
+    inset -96px -30px 100px #090912, 
+    inset 6px -26px 120px #0b83ff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    /* transition: .6s ease-out .3s; we gonna add transition in javascript im gonna explain everything */
+}
+.line2,
+.line3,
+.line4
+{
+    top: 50%;
+    opacity: 0;
+}
+
+.icon-skew {
+    content: '';
+    width: 55px;
+    height: 60px;
+    border-radius: 10px;
+    background: #100a1d;
+    box-shadow: 0px 0px 20px #00dcff, 
+    0px 0px 30px #00dcff, 
+    5px 6px 1px #21a5f3, 
+    inset 0px -5px 12px #3ebcc2, 
+    inset 0px 1px 15px #2158f3;
+    position: relative;
+    display: block;
+    margin: 0 auto 30px auto;
+    transform: rotate(55deg) skew(0deg, -20deg);
+}
+.icon-skew ion-icon,
+.icon-inside ion-icon {
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.first-show1,
+.first-show2,
+.first-show3,
+.first-show4
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+/*     background: #060212;
+    box-shadow: 0px 0px 5px #7b21f3, 
+    1px 1px 1px #e90000, 
+    inset 10px 0px 60px #0c0811, 
+    inset -27px -32px 60px #0e0912, 
+    inset -5px -6px 30px #8c0bff; */
+
+
+    background: #020312;
+    box-shadow: 0px 0px 5px #219cf3, 
+    2px 2px 1px #00e9de, 
+    inset 10px 0px 60px #080a11, 
+    inset -27px -32px 60px #090912, 
+    inset -5px -6px 30px #0b83ff;
+    
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.first-show2,
+.first-show3,
+.first-show4
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.flex-link
+{
+    display: flex;
+    grid-gap: 50px;
+}
+
+
+.css-design
+{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.card1-css,
+.card2-css,
+.card3-css
+{
+    content: '';
+    width: 125px;
+    height: 250px;
+    border-radius: 10px;
+    background: #100a1d;
+    box-shadow: 0px 0px 10px #00dcff, 
+    0px 0px 20px #00dcff, 
+    7px 7px 1px #21a5f3, 
+    inset 0px -5px 12px #3ebcc2, 
+    inset 0px 1px 15px #2158f3;
+    position: absolute;
+    top: 49%;
+    left: 46%;
+    transform: rotate(60deg) skew(5deg, -33deg) translate(-50%, -50%) scale(0.6);
+    z-index: 3;
+    animation: cssCard1 5s ease forwards infinite;
+}
+.card2-css
+{
+    top: 57%;
+    left: 48%;
+    transform: rotate(60deg) skew(5deg, -33deg) translate(-50%, -50%) scale(0.8);
+    z-index: 2;
+    animation: cssCard2 5s ease forwards infinite;
+}
+.card3-css
+{
+    top: 64%;
+    left: 48%;
+    z-index: 1;
+    transform: rotate(60deg) skew(5deg, -33deg) translate(-50%, -50%);
+    animation: none;
+}
+@keyframes cssCard1
+{
+    0%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg) translate(-25%, -35%) scale(0.6);
+        opacity: 0;
+    }
+    50%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg) translate(-50%, -50%) scale(0.6);
+        opacity: 1;
+    }
+    100%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg) translate(-25%, -35%) scale(0.6);
+        opacity: 0;
+    }
+}
+@keyframes cssCard2
+{
+    0%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg) translate(-37%, -40%) scale(0.8);
+        opacity: 0;
+    }
+    50%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg) translate(-50%, -50%) scale(0.8);
+        opacity: 1;
+    }
+    100%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg) translate(-37%, -40%) scale(0.8);
+        opacity: 0;
+    }
+}
+.icon-inside {
+    content: '';
+    width: 90px;
+    height: 105px;
+    border-radius: 10px;
+    background: #100a1d;
+    box-shadow: 0px 0px 5px #00dcff, 
+    0px 0px 10px #00dcff, 
+    6px -6px 1px #00dcff, 
+    inset 0px -5px 12px #3EBCBD, 
+    inset 0px 1px 15px #2158f3;
+    position: absolute;
+    top: 34%;
+    left: 75%;
+    transform: skew(0deg, 15deg) translate(-50%, -30%);
+    border: 2px solid #0fc4fa;
+    z-index: 3;
+    animation: icontop 5s ease forwards infinite;
+}
+@keyframes icontop
+{
+    0%
+    {
+        transform: skew(0deg, 15deg) translate(-50%, -30%);
+    }
+    50%
+    {
+        transform: skew(0deg, 15deg) translate(-50%, -60%);
+    }
+}
+.icon-inside ion-icon
+{
+    font-size: 4rem;
+}
+
+
+
+
+/* scroll function JAVASCRIPT */
+.four-box
+{
+    transform: translateY(-40px);
+    opacity: 0;
+    transition: 1s ease;
+}
+.four-box.show {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.detail.show
+{
+    top: 60px;
+    opacity: 1;
+}
+.text,
+.text-flex,
+.text-center
+{
+    transform: translateX(-40px);
+    opacity: 0;
+    transition: 1s ease;
+}
+.text.show,
+.text-flex.show,
+.text-center.show
+{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+
+
+
+
+
 
 
 
@@ -10,70 +342,47 @@
 }
 @media (max-width : 1350px)
 {
-   section
-   {
+    section {
         padding: 170px 6%;
-   }
+    }
 }
 @media (max-width : 1200px)
 {
-    .css-design
-    {
-        transform: scale(0.95rem);
+    .css-design {
+        transform: scale(0.95);
     }
 }
 @media (max-width : 1100px)
 {
-    .css-design
-    {
-        transform: scale(0.9rem);
+    .css-design {
+        transform: scale(0.9);
         left: -12%;
     }
 }
 @media (max-width : 960px)
 {
-    .offer::before
-    {
-        left: -60%;
+    section {
+        padding: 170px 6%;
     }
-    section
-    {
-         padding: 170px 6%;
-    }
-    .box1,
-    .box2,
-    .box3,
-    .box4
+    .box1, .box2, .box3, .box4
     {
         width: 150px;
         height: 175px;
     }
-    .detail
-    {
+    .detail {
         top: 35px;
     }
-    .detail.show
-    {
-        top: 35px;
-    }
-    .css-design
-    {
+    .css-design {
         transform: scale(0.8);
         left: -15%;
     }
 }
 @media (max-width : 788px)
 {
-    .offer::before
-    {
-        left: -80%;
-    }
-    section
-    {
+    section {
         padding: 170px 4%;
     }
-    .text-flex
-    {
+    .text-flex {
         align-items: normal;
         flex-direction: column;
     }
@@ -84,12 +393,12 @@
         align-items: center;
         gap: 50px;
     }
-    .box1,
-    .box2,
-    .box3,
-    .box4
-    {
+
+    .box1, .box2, .box3, .box4 {
         margin: 0 auto;
+    }
+    .four-box {
+        padding-top: 25px;
     }
     .line1,
     .line2,
@@ -98,30 +407,20 @@
     {
         display: none;
     }
-    .first-show1,
-    .first-show2,
-    .first-show3,
-    .first-show4
+    .first-show1, .first-show2, .first-show3, .first-show4
     {
         flex-direction: column;
     }
-    .css-design
-    {
+    .css-design {
         transform: scale(0.9);
     }
 }
 @media (max-width : 545px)
 {
-    .offer::before
-    {
-        left: -110%;
-    }
-    .flex-link a
-    {
+    .flex-link a {
         width: 132px;
     }
-    .css-design
-    {
+    .css-design {
         transform: scale(0.8);
         left: -23%;
     }

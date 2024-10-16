@@ -1,0 +1,456 @@
+.cir-rotate {
+    transform: rotate(0deg);
+    position: sticky;
+    width: 678px;
+    height: 453px;
+    animation: rot 5s linear forwards infinite;
+}
+/* @keyframes rot
+{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.2);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+@keyframes rightleft
+{
+    0% {
+        /*         why must use transform instead right for better */ 
+/*         right: 40px; */ 
+        transform: translateX(0);
+    }
+    25% {
+/*         right: 7px; */
+        transform: translateX(35px);
+    }
+    75% {
+/*         right: 73px; */
+        transform: translateX(-40px);
+    }
+    100% {
+/*         right: 40px; */
+        transform: translateX(0);
+    }
+}
+
+/* @keyframes cnSmall
+{
+    0%
+    {
+        background: white;
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.5);
+    }
+    25%
+    {
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 5px #219cf3, inset 0px 0px 6px #219cf3;
+    }
+    50%
+    {
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 15px #219cf3, inset 0px 0px 6px #219cf3;
+        transform: scale(1.4);
+    }
+    75%
+    {
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 0px 5px #219cf3, inset 0px 0px 6px #219cf3;
+    }
+    100%
+    {
+        background: white;
+    }
+} */
+@keyframes balling3
+{
+    0%
+    {
+        transform: translate(0px, 20px);
+    }
+    25%
+    {
+        transform: translate(0px, -10px);
+    }
+    50%
+    {
+        transform: translate(-140px, -10px);
+    }
+    75%
+    {
+        transform: translate(-140px, 30px);
+    }
+    90%
+    {
+        transform: translate(0px, 30px);
+    }
+    100%
+    {
+        transform: translate(0px, 20px);
+    }
+}
+@keyframes card1
+{
+    0%
+    {
+        top: 174px;
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.5);
+    }
+    10%
+    {
+        top: 100px;
+    }
+    20%
+    {
+        top: 100px;
+    }
+    30%
+    {
+        top: 100px;
+    }
+    35%
+    {
+        top: 100px;
+        animation-duration: 10s;
+    }
+    40%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg);
+        top: 100px;
+    }
+    45%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 350px;
+    }
+    50%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 408px;
+    }
+    55%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 458px;
+    }
+    60%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 508px;
+    }
+    70%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.05);
+        top: 100px;
+        left: 508px;
+    }
+    73%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 508px;
+    }
+    76%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.1);
+        background: #020312;
+        top: 100px;
+        left: 508px;
+    }
+    80%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 508px;
+    }
+    83%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 508px;
+    }
+    86%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 508px;
+    }
+    90%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 508px;
+    }
+    93%
+    {
+        transform: rotate(30deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 130px;
+        left: 408px;
+    }
+    96%
+    {
+        transform: rotate(60deg) skew(0deg, 0deg) scale(1.0);
+        background: #2fc0ff;
+        top: 160px;
+        left: 358px;
+    }
+    100%
+    {
+        top: 174px;
+        left: 308px;
+        background: #2fc0ff;
+        transform: rotate(60deg) skew(5deg, -33deg);
+    }
+}
+
+@keyframes card2
+{
+    0%
+    {
+        top: 100px;
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.5);
+    }
+    15%
+    {
+        top: 100px;
+    }
+    30%
+    {
+        top: 100px;
+    }
+    40%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg);
+        top: 100px;
+    }
+    50%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+    }
+    55%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 308px;
+    }
+    60%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 308px;
+    }
+    70%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.05);
+        top: 100px;
+        left: 308px;
+    }
+    73%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    76%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.1);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    80%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    83%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    86%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    90%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    93%
+    {
+        transform: rotate(30deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 308px;
+    }
+    96%
+    {
+        transform: rotate(60deg) skew(0deg, 0deg) scale(1.0);
+        background: #2fc0ff;
+        top: 100px;
+        left: 308px;
+    }
+    100%
+    {
+        top: 100px;
+        left: 308px;
+        transform: rotate(60deg) skew(5deg, -33deg);
+        background: #2fc0ff;
+    }
+}
+
+@keyframes card3
+{
+    0%
+    {
+        top: 26px;
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.5);
+    }
+    10%
+    {
+        top: 100px;
+    }
+    20%
+    {
+        top: 100px;
+    }
+    30%
+    {
+        top: 100px;
+    }
+    35%
+    {
+        top: 100px;
+        animation-duration: 10s;
+    }
+    40%
+    {
+        transform: rotate(60deg) skew(5deg, -33deg);
+        top: 100px;
+    }
+    45%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 250px;
+    }
+    50%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 208px;
+    }
+    55%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 158px;
+    }
+    60%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg);
+        top: 100px;
+        left: 108px;
+    }
+    70%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.05);
+        top: 100px;
+        left: 108px;
+    }
+    73%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 108px;
+    }
+    76%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.1);
+        background: #020312;
+        top: 100px;
+        left: 108px;
+    }
+    80%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 108px;
+    }
+    83%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.08);
+        background: #020312;
+        top: 100px;
+        left: 108px;
+    }
+    86%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 108px;
+    }
+    90%
+    {
+        transform: rotate(0deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 100px;
+        left: 108px;
+    }
+    93%
+    {
+        transform: rotate(30deg) skew(0deg, 0deg) scale(1.0);
+        background: #020312;
+        top: 70px;
+        left: 208px;
+    }
+    96%
+    {
+        transform: rotate(60deg) skew(0deg, 0deg) scale(1.0);
+        background: #2fc0ff;
+        top: 40px;
+        left: 258px;
+    }
+    100%
+    {
+        top: 26px;
+        left: 308px;
+        transform: rotate(60deg) skew(5deg, -33deg);
+        background: #2fc0ff;
+    }
+}
